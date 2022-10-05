@@ -26,7 +26,7 @@ int DummyTask2::update()
     // log_m("bar");
     // std::cout<<(float(GetTickCount()-tlast)/1000.0f)<<std::endl;
     // tlast = GetTickCount();
-    log_m("foo");
+    std::cout<<("foo")<<std::endl;
     return 1;
 }
 
